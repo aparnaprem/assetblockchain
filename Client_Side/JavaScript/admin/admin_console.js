@@ -313,7 +313,7 @@ function showEditTbl()
 		case "cutter": 
 			i = 4 
 			break;
-case "jewellery maker": 
+case "jewellery_maker": 
 			i = 5 
 			break;
 case "customer": 
