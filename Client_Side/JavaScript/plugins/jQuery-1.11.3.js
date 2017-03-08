@@ -9662,7 +9662,7 @@ if ( xhrSupported ) {
 					// This may raise an exception which is actually
 					// handled in jQuery.ajax (so no try/catch here)
 					xhr.send( ( options.hasContent && options.data ) || null );
-                    console.log("options")
+                    console.log(options.hasContent)
 
 					// Listener
 					callback = function( _, isAbort ) {
