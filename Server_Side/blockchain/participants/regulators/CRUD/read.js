@@ -18,7 +18,7 @@ let read = function(req, res)
     }
     else
     {
-        tracing.create('EXIT', 'GET blockchain/participants/miners', {'result':participants.regulators});
+        tracing.create('EXIT', 'GET blockchain/participants/regulators', {'result':participants.regulators});
         res.send({'result':participants.regulators});
     }
 };
